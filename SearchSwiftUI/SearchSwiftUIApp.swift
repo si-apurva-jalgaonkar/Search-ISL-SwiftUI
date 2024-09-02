@@ -11,7 +11,8 @@ import SwiftUI
 struct SearchSwiftUIApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(namesData: nameData)
+//            NodataFound(namesData: nameData)
         }
     }
 }
